@@ -24,8 +24,12 @@ public class MessageProducerStorage {
     public void printMessages() {
         System.out.println("Messages:");
         System.out.println("-------------------------------------------------");
-        for(MessageProducer producer: messageProducers) {
-            System.out.println(producer.produce());
+
+        for (MessageProducer producer : messageProducers) {
+            for (int i = 1; i < messageProducers.size(); i++) {
+                System.out.println(i + ")" + producer.produce());
+            }
+
         }
     }
 
