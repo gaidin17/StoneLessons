@@ -8,5 +8,5 @@ public class Application {
     public static void main(String[] args) {
         MessageProducerStorage storage = new MessageProducerStorage();
         storage.printMessages();
-    }
-}
+        }
+        }
