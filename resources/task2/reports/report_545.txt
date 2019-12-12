@@ -1,0 +1,3 @@
+companyName:Svetlyachok LTD
+total:798563.00
+month:Jan-19
