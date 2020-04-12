@@ -1,0 +1,2 @@
+2020-04-12 16:35:32.427 [main] INFO  com.neartack.stone.lessons.task2.CompanyReportGenerator - NumberFormatException
+2020-04-12 16:35:32.430 [main] ERROR com.neartack.stone.lessons.task2.CompanyReportGenerator - NumberFormatException при чтении файла: report_5116.txt при выполнении: parseDouble
